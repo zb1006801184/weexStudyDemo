@@ -1,0 +1,8 @@
+platform:ios,'8.0'
+target ‘firstWeexDemo’ do
+    use_frameworks!
+    pod 'WeexSDK'
+    pod 'WXDevtool', :configurations => ['Debug'] #只在 debug 时引入
+    pod 'SocketRocket'
+
+end
