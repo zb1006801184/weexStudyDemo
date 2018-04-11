@@ -1,0 +1,6 @@
+framework module Pods_downloadImageDemo {
+  umbrella header "Pods-downloadImageDemo-umbrella.h"
+
+  export *
+  module * { export * }
+}
